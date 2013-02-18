@@ -1,0 +1,6 @@
+tools/*
+lib/impact/*
+lib/weltmeister/*
+weltmeister.html
+*.min.js
+.DS_Store
