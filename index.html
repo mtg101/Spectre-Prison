@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
 /*
@@ -13,7 +12,7 @@
 -->
 <html>
 <head>
-	<title>Impact Game</title>
+	<title>Spectre Prison</title>
 	<style type="text/css">
 		html,body {
 			background-color: #333;
@@ -22,22 +21,30 @@
 			margin: 0;
 			padding: 0;
 			font-size: 12pt;
-		}
-		
+		}		
 		#canvas {
-			position: absolute;
+      position: relative;
 			left: 0;
 			right: 0;
 			top: 0;
 			bottom: 0;
 			margin: auto;
 		}
+		#center {
+      text-align: center;
+      margin-top: 10px;
+		}
 	</style>
-
 	<script type="text/javascript" src="lib/impact/impact.js"></script>
 	<script type="text/javascript" src="lib/game/main.js"></script>
 </head>
 <body>
-	<canvas id="canvas"></canvas>
+  <div id="center">
+  	<canvas id="canvas"></canvas>
+  </div>
+  <div id="center">
+    <a href="https://twitter.com/MuBeerFolly" class="twitter-follow-button" data-show-count="false">Follow @MuBeerFolly</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
 </body>
 </html>
